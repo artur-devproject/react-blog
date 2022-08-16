@@ -1,0 +1,27 @@
+.loader__box {
+    margin: 50px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loader__element {
+    font-size: 50px;
+    font-family: monospace;
+    color: pink;
+    margin: 0px 25px;
+    border-radius: 50%;
+    animation: scale 0.5s infinite linear;
+}
+
+@keyframes scale {
+    from {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(2);
+    }
+    to {
+        transform: scale(1);
+    }
+}
